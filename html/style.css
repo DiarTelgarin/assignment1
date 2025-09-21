@@ -1,0 +1,129 @@
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            background-color:#c8d2fc;
+            color: #333
+        }
+        
+        table {
+            margin: 20px;
+            width: 80%;
+        }
+        p {
+            color:darkblue;
+            font-family:Arial;
+        }
+        
+        .highlight {
+            color:chocolate;
+            font-style: italic;
+            font-weight: bold
+        }
+
+        #main-heading {
+            color:brown;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        #special {
+            color:orangered;
+            font-family: "Courier New";
+        }
+
+        #header {
+            background-color:rgb(40, 59, 115);
+            padding: 20px;
+            margin-top: -20px;
+            margin-right: -20px;
+            margin-left: -20px;
+            text-align: center;
+        }
+        
+        #main {
+            background-color:rgb(78, 105, 185);
+            padding: 20px;
+            margin-top: -20px;
+            margin-right: -20px;
+            margin-left: -20px;
+            text-align: center;
+        }
+
+        #footer {
+            background-color:rgb(121, 142, 200);
+            padding: 15px;
+            margin-top: -20px;
+            margin-right: -20px;
+            margin-left: -20px;
+        }
+
+        .box1 {
+            height: 100px;
+            border: solid;
+            border-width: 10px;
+            padding: 5px;
+            margin: 10px;
+            border-color: rgb(21, 21, 90);
+        }
+
+        .box2 {
+            height: 100px;
+            border: solid;
+            border-width: 10px;
+            padding: 5px;
+            margin: 10px;
+            border-color: rgb(21, 21, 90);
+        }
+
+        .static {
+            position: static;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+
+        .relative {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color:red;
+            left: 100px;
+            bottom: 100px;
+        }
+
+        .absolute {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            left: 220px;
+            top: 1770px;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        img {
+            width: 50%;
+        }
+
+        .box {
+            width: 45%;
+            padding: 10px;
+            background: yellow;
+        }
+        
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+
+
+        
